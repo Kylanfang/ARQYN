@@ -1,0 +1,9 @@
+{
+  "step": 400,
+  "epoch": 0,
+  "offset": 1600,
+  "pending_micro": 0,
+  "orders_per_sample_per_epoch": 3,
+  "order_variant_policy": "deterministic_storage_reverse_seeded",
+  "trigger": "update-cadence"
+}

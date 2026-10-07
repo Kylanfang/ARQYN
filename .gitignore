@@ -1,0 +1,8 @@
+# 训练中间态/大文件：永不提交
+*.pt
+*.bin
+trainer_state*
+checkpoint-*/
+*.zip
+__pycache__/
+*.pyc

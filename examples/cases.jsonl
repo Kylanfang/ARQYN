@@ -1,0 +1,3 @@
+{"case_id": "case-001", "user_question": "帮我看一下现在模型目录里有哪些可用的模型", "state": {"provider_configured": true, "api_key_present": true}, "user_expected": "settings.catalog.discover", "note": "示例：已配置提供商时刷新目录"}
+{"case_id": "case-002", "user_question": "我想刷新一下能用的模型清单，但好像还没配置过服务商", "state": {"provider_configured": false, "api_key_present": false}, "user_expected": "settings.config", "note": "示例：blocked——先补条件而非询问"}
+{"case_id": "case-003", "user_question": "J-0817 这个训练任务的损失曲线最近怎么样", "state": {"training_job_present": false}, "user_expected": "decision.none", "note": "示例：无任务时应拒答/说明，而非臆造"}

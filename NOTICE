@@ -1,0 +1,16 @@
+ARQYN v2 (arqyn-v2) -- workbench next-step decision adapter
+Distributed under the Apache License, Version 2.0.
+
+This artifact is a derivative work based on:
+  Base model : internlm/Intern-Decision-2B
+  Revision   : 8797836c65fc91a2435b1fb6850b5f0aabd75cc3
+  Upstream   : Qwen/Qwen3.5-2B (Apache-2.0)
+  License    : Apache License 2.0
+
+Modification notice (Apache-2.0 section 4(b)):
+  This adapter is the product of local masked QLoRA fine-tuning
+  (LoRA r=16, alpha=32, dropout=0.10, NF4 double-quant + BF16 compute)
+  applied to language-backbone linear layers only; the vision tower and
+  projector are frozen and unmodified. All changes are contained in the
+  LoRA adapter weights (adapter_model.safetensors). Base weights are
+  unchanged and are NOT included in this package.
